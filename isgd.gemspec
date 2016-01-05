@@ -12,9 +12,7 @@ Gem::Specification.new do |s|
   }
   s.files = [
     'CHANGELOG.md',
-    'lib/fishbans.rb',
-    'lib/block_engine.rb',
-    'lib/player_skins.rb'
+    'lib/isgd.rb'
   ]
   s.add_runtime_dependency('httpclient', '2.6.0.1')
 end
