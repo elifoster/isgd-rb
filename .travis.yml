@@ -13,6 +13,4 @@ notifications:
     on_failure: always
     channels:
       - "irc.esper.net#SatanicSanta"
-    template:
-      - "%{reposiory_name}/%{branch}#{build_number} (%{commit}): %{message}"
     skip_join: true
