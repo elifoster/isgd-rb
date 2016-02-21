@@ -1,5 +1,6 @@
 # isgd-rb
 [![Build Status](https://travis-ci.org/elifoster/isgd-rb.svg?branch=master)](https://travis-ci.org/elifoster/isgd-rb)
+[![Gem Version](https://badge.fury.io/rb/isgd.svg)](https://badge.fury.io/rb/isgd)
 
 A Ruby wrapper for the isgd API utilizing HTTPClient
 
