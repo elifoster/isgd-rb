@@ -1,5 +1,8 @@
 # Changelog
 ## Version 1
+### Version 1.0.3
+* Pessimistic version requirement.
+
 ### Version 1.0.2
 * License as MIT
 
