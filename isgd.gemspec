@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.authors = ['Eli Foster']
   s.name = 'isgd'
   s.summary = 'A Ruby gem for interacting with the isgd API.'
-  s.version = '1.0.3'
+  s.version = '1.0.4'
   s.license = 'MIT'
   s.description = 'Accessing the isgd API through HTTPClient.'
   s.email = 'elifosterwy@gmail.com'
@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
     'CHANGELOG.md',
     'lib/isgd.rb'
   ]
-  s.add_runtime_dependency('httpclient', '~> 2.7')
+  s.add_runtime_dependency('httpclient', '~> 2.8')
 end
