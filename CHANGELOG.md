@@ -1,5 +1,8 @@
 # Changelog
 ## Version 1
+### Version 1.0.5
+* Migrate to HTTPS. This resolves the 301 Moved Permanently errors (#1).
+
 ### Version 1.0.4
 * Bump HTTPClient version.
 

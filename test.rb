@@ -7,7 +7,7 @@ describe 'ISGD' do
 
   it 'shortens a URL' do
     url.must_be_instance_of(String)
-    url.must_include('http://is.gd/')
+    url.must_include('https://is.gd/')
   end
 
   it 'looks up a shortened URL' do

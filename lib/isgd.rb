@@ -20,7 +20,7 @@ module ISGD
     params[:shorturl] = short if !short.nil? && 30 < short.length < 5
     @client = HTTPClient.new if @client.nil?
 
-    response = JSON.parse(@client.get(URI.parse('http://is.gd/create.php'), params).body)
+    response = JSON.parse(@client.get(URI.parse('https://is.gd/create.php'), params).body)
 
     return response['errormessage'] if response.key?('errormessage')
 
@@ -40,7 +40,7 @@ module ISGD
     }
     @client = HTTPClient.new if @client.nil?
 
-    response = JSON.parse(@client.get(URI.parse('http://is.gd/forward.php'), params).body)
+    response = JSON.parse(@client.get(URI.parse('https://is.gd/forward.php'), params).body)
 
     return response['errormessage'] if response.key?('errormessage')
 
