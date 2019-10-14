@@ -6,13 +6,13 @@ describe 'ISGD' do
   url = ISGD.shorten(rubygems).freeze
 
   it 'shortens a URL' do
-    url.must_be_instance_of(String)
-    url.must_include('https://is.gd/')
+    expect(url).must_be_instance_of(String)
+    expect(url).must_include('https://is.gd/')
   end
 
   it 'looks up a shortened URL' do
     lookup = ISGD.lookup(url)
-    lookup.must_be_instance_of(String)
+    expect(lookup).must_be_instance_of(String)
     assert_equal(lookup, rubygems)
   end
 end

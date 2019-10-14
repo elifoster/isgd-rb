@@ -1,17 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    httpclient (2.8.0)
-    minitest (5.8.4)
-    rake (11.1.2)
+    httpclient (2.8.3)
+    minitest (5.12.2)
+    rake (13.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   httpclient (~> 2.8)
-  minitest (~> 5.8)
-  rake (~> 11.1)
+  minitest (~> 5.12)
+  rake (~> 13)
+
+RUBY VERSION
+   ruby 2.6.5p114
 
 BUNDLED WITH
-   1.11.2
+   2.0.2
