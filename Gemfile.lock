@@ -3,7 +3,7 @@ GEM
   specs:
     httpclient (2.8.3)
     minitest (5.13.0)
-    rake (13.0.0)
+    rake (13.0.1)
 
 PLATFORMS
   ruby
